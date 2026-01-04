@@ -71,8 +71,9 @@ function love.update(dt)
         player.speed=2
     end
 
-    if player.moving == false then 
+    if player.moving == false then  
         playerMovementChecker()
+
         player.speed=0
         player.currentAnimation:gotoFrame(2)
     end
