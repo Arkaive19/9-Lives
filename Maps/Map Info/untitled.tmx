@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="Fantasy" tilewidth="480" tileheight="192" tilecount="64" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="Tilesets/cave_/cave_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="1">
+   <image source="Tilesets/cave_/cave_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="2">
+   <image source="Tilesets/cave_/cave_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="3">
+   <image source="Tilesets/cave_/cave_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="4">
+   <image source="Tilesets/cave_/cave_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="5">
+   <image source="Tilesets/cave_/cave_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="6">
+   <image source="Tilesets/cave_/cave_.png" width="352" height="192"/>
+  </tile>
+  <tile id="7">
+   <image source="Tilesets/cave_/railway_.png" width="128" height="80"/>
+  </tile>
+  <tile id="8">
+   <image source="Tilesets/desert_/desert_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="9">
+   <image source="Tilesets/desert_/desert_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="10">
+   <image source="Tilesets/desert_/desert_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="11">
+   <image source="Tilesets/desert_/desert_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="12">
+   <image source="Tilesets/desert_/desert_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="13">
+   <image source="Tilesets/desert_/desert_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="14">
+   <image source="Tilesets/desert_/desert_.png" width="352" height="144"/>
+  </tile>
+  <tile id="15">
+   <image source="Tilesets/desert_/desertPath_.png" width="128" height="80"/>
+  </tile>
+  <tile id="16">
+   <image source="Tilesets/desert_/quickSand_.png" width="352" height="80"/>
+  </tile>
+  <tile id="17">
+   <image source="Tilesets/fantasy_/forestDesert_.png" width="288" height="96"/>
+  </tile>
+  <tile id="18">
+   <image source="Tilesets/fantasy_/swampDesert_.png" width="288" height="96"/>
+  </tile>
+  <tile id="19">
+   <image source="Tilesets/fantasy_/swampForest_.png" width="288" height="96"/>
+  </tile>
+  <tile id="20">
+   <image source="Tilesets/fantasy_/swampTaiga_.png" width="288" height="96"/>
+  </tile>
+  <tile id="21">
+   <image source="Tilesets/fantasy_/taigaDesert_.png" width="288" height="96"/>
+  </tile>
+  <tile id="22">
+   <image source="Tilesets/fantasy_/taigaForest_.png" width="288" height="96"/>
+  </tile>
+  <tile id="23">
+   <image source="Tilesets/fantasy_/tundraDesert_.png" width="288" height="96"/>
+  </tile>
+  <tile id="24">
+   <image source="Tilesets/fantasy_/tundraForest.png" width="288" height="96"/>
+  </tile>
+  <tile id="25">
+   <image source="Tilesets/fantasy_/tundraSwamp_.png" width="288" height="96"/>
+  </tile>
+  <tile id="26">
+   <image source="Tilesets/fantasy_/tundraSwampTaigaForestDesert_0.png" width="272" height="128"/>
+  </tile>
+  <tile id="27">
+   <image source="Tilesets/fantasy_/tundraSwampTaigaForestDesert_1.png" width="192" height="96"/>
+  </tile>
+  <tile id="28">
+   <image source="Tilesets/fantasy_/tundraTaiga_.png" width="288" height="96"/>
+  </tile>
+  <tile id="29">
+   <image source="Tilesets/forest_/forest_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="30">
+   <image source="Tilesets/forest_/forest_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="31">
+   <image source="Tilesets/forest_/forest_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="32">
+   <image source="Tilesets/forest_/forest_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="33">
+   <image source="Tilesets/forest_/forest_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="34">
+   <image source="Tilesets/forest_/forest_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="35">
+   <image source="Tilesets/forest_/forest_.png" width="352" height="144"/>
+  </tile>
+  <tile id="36">
+   <image source="Tilesets/forest_/forestPath_.png" width="128" height="80"/>
+  </tile>
+  <tile id="37">
+   <image source="Tilesets/swamp_/puddle_.png" width="112" height="80"/>
+  </tile>
+  <tile id="38">
+   <image source="Tilesets/swamp_/swamp_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="39">
+   <image source="Tilesets/swamp_/swamp_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="40">
+   <image source="Tilesets/swamp_/swamp_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="41">
+   <image source="Tilesets/swamp_/swamp_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="42">
+   <image source="Tilesets/swamp_/swamp_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="43">
+   <image source="Tilesets/swamp_/swamp_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="44">
+   <image source="Tilesets/swamp_/swamp_.png" width="352" height="144"/>
+  </tile>
+  <tile id="45">
+   <image source="Tilesets/taiga_/taiga_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="46">
+   <image source="Tilesets/taiga_/taiga_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="47">
+   <image source="Tilesets/taiga_/taiga_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="48">
+   <image source="Tilesets/taiga_/taiga_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="49">
+   <image source="Tilesets/taiga_/taiga_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="50">
+   <image source="Tilesets/taiga_/taiga_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="51">
+   <image source="Tilesets/taiga_/taiga_.png" width="352" height="144"/>
+  </tile>
+  <tile id="52">
+   <image source="Tilesets/taiga_/taigaPath_.png" width="128" height="80"/>
+  </tile>
+  <tile id="53">
+   <image source="Tilesets/tundra_/ice_.png" width="352" height="80"/>
+  </tile>
+  <tile id="54">
+   <image source="Tilesets/tundra_/igloo_.png" width="192" height="160"/>
+  </tile>
+  <tile id="55">
+   <image source="Tilesets/tundra_/tundra_ [bridgeAnimatedTiles].png" width="176" height="160"/>
+  </tile>
+  <tile id="56">
+   <image source="Tilesets/tundra_/tundra_ [bridgeHorizontal].png" width="192" height="96"/>
+  </tile>
+  <tile id="57">
+   <image source="Tilesets/tundra_/tundra_ [bridgeVertical].png" width="80" height="160"/>
+  </tile>
+  <tile id="58">
+   <image source="Tilesets/tundra_/tundra_ [fencesAndWalls].png" width="240" height="192"/>
+  </tile>
+  <tile id="59">
+   <image source="Tilesets/tundra_/tundra_ [fountain].png" width="288" height="96"/>
+  </tile>
+  <tile id="60">
+   <image source="Tilesets/tundra_/tundra_ [ice].png" width="480" height="96"/>
+  </tile>
+  <tile id="61">
+   <image source="Tilesets/tundra_/tundra_ [resources].png" width="192" height="160"/>
+  </tile>
+  <tile id="62">
+   <image source="Tilesets/tundra_/tundra_.png" width="352" height="144"/>
+  </tile>
+  <tile id="63">
+   <image source="Tilesets/tundra_/tundraPath_.png" width="128" height="80"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="csv"/>
+ </layer>
+</map>
